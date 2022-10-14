@@ -1,0 +1,528 @@
+
+.navbar{
+  background-color: black;
+  padding: 15px;
+}
+.items{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  color: white;
+}
+
+.brand{
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.icons{
+  font-size: 120px;
+  color: grey;
+}
+
+.icons:hover{
+  color: rgb(221, 42, 123);
+  transition: .5s;
+
+}
+
+.icons:hover.linkedin{
+  color: rgb(0, 119, 181);
+  transition: .4s;
+}
+
+
+.auth{
+  display: flex;
+  margin-left: auto;
+}
+li{
+  padding-left: 10px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.authItem{
+  font-size: large;
+  font-weight: 300;
+}
+
+.mainHome{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+}
+.title{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: bolder;
+  font-size: xx-large;
+}
+
+.rooms{
+  padding-right: 90px;
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 2px solid black;
+  height: 250px;
+}
+
+
+
+.price{
+  font-size: x-large;
+  font-weight: bolder;
+
+}
+.mainItem{
+  display: flex;
+  flex-direction: row;
+}
+.thumbnail{
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.price{
+  padding-left: 2px;
+  font-size: x-large;
+}
+
+.parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filter{
+  display: flex;
+  justify-content: space-around;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  flex-wrap: wrap;
+  padding-top: 100px;
+}
+
+input,select{
+  box-shadow: none !important;
+  margin-top: 10px !important;
+  border: 2px solid black !important;
+  width: 100% !important;
+
+}
+
+.card{
+  width: 31rem;
+  margin: 20px;
+  border: 2px dashed black;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+
+.card-img-top{
+  width: 300px;
+  border-radius: 15px;
+  height: 200px;
+}
+
+.notfound{
+  width: 100%;
+  height: 100vh;
+}
+
+.loading{
+  padding: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view{
+  border-radius:10px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+
+.view:hover {
+  transition: .6s;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+}
+
+.navItem{
+  display: flex;
+  flex-direction: column;
+  padding-right: 2px;
+  margin-left: auto;
+  font-weight: bolder;
+  color: white;
+}
+
+.navLinks{
+  padding-left: 200px;
+  color: white;
+}
+
+.link{
+  color: white;
+}
+
+.bookScreen{
+  background-color: black;
+  height: 100vh;
+
+}
+
+.sliderImg{
+  height:60vh
+}
+
+.imgslide{
+  height: 60vh;
+}
+.Registerbtn{
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border-radius: 8px;
+  margin-top: 6px;
+}
+
+input{
+  margin-top: 6px !important;
+}
+
+.form{
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px
+}
+
+.loginMenu{
+  margin-left: auto;
+}
+
+.authScreen{
+  padding-top: 250px;
+}
+
+.homeScrn{
+  background-color: black;
+  height: 100vh;
+}
+
+.hometext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+  padding-top: 150px;
+}
+
+.bookingTitle{
+  padding-top: 55px;
+}
+
+.payNow{
+  color: white;
+  background-color: black;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 19px;
+}
+
+.payNow:hover{
+  color: black;
+  background-color: white;
+  font-size: larger;
+  font-weight: bolder;
+  animation-delay: .4s;
+  transition: .4s;
+}
+
+.bookSummary{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bookingDetails,.amountDetails{
+  padding-top: 100px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+
+}
+
+.profileTabs{
+  padding-top: 60px;
+}
+.bookingTitle{
+  display:flex;
+  justify-content:center;
+  color: black;
+}
+.Psection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+.infoDiv{
+  margin-top: 4px;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+.titleBooking{
+  display: flex;
+  justify-content:center;
+  color: white;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+}
+
+.adminTitle{
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  margin-top: 65px;
+}
+
+.addRoom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+form{
+  width: 50%;
+}
+
+.loader{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.roomWaiting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 500px;
+  padding-top: 200px;
+}
+
+
+.about{
+  background-color: #212121;
+  height: 100vh;
+  color: rgba(255, 255, 255, 0.55);
+}
+.aboutTitle{
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  padding-top: 120px;
+  justify-content: center;
+}
+
+p{
+  font-weight: bolder;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+}
+
+.icon{
+  padding: 5px;
+}
+
+.icons{
+  width: 300px;
+  height: 300px;
+}
+
+@media screen and (min-width:361px) {
+  
+  /* .bookingSummary{
+    padding-top: 80px;
+  } */
+  .bookingTitle{
+    color: white;
+  }
+}
+
+@media screen and (max-width:442px) {
+  .roomMainDiv{
+    width: 442px;
+  }
+  .roomWaiting{
+    margin-left: 300px;
+    padding-left: 300px;
+  }
+  .parent{
+    width: 440px;
+  }
+  .navBarDiv{
+    width: 442px;
+  }
+  .navItem{
+    width: 216px;
+    padding-right: 92px;
+  }
+  .navLinks{
+    padding-left: 64px;
+  }
+  .card-img-top {
+    width: 231px;
+    border-radius: 15px;
+    height: 200px;
+}
+.card {
+  width: 15rem;
+  margin: 20px;
+  border: 2px dashed black;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.filter {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  width: 330px;
+}
+}
+
+@media screen and (max-width:284px) {
+ 
+  .filter {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    width: 200px;
+  }
+  .card {
+    width: 10rem;
+    margin: 20px;
+    border: 2px dashed black;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  }
+  .card-img-top {
+    width: 150px;
+    border-radius: 15px;
+    height: 200px;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+}
+
+
+@media screen and (max-width:360px) {
+
+  .bookSummary{
+    background-color: white;
+    flex-direction: column;
+    padding-top: 0px;
+  }
+
+  .social{
+    flex-direction: column;
+  }
+  
+  .icons{
+    font-size: 180px;
+  }
+ form{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .leftpart{
+  margin-right: 12px;
+ }
+
+ .submit {
+  margin-top: 37px;
+  margin-left: 12px;
+}
+
+  .bookingTitle{
+    color: white;
+  }
+  .bookingDetails{
+    margin-top: 16px;
+    padding-top: 0px;
+  }
+
+  .titleBooking{
+    color: black;
+  }
+  .amountDetails{
+    padding-top: 0px;
+    margin-bottom: 156px;
+  }
+
+  .payNow{
+    color: white;
+    background-color: black;
+    font-size: larger;
+    font-weight: bolder;
+    width: 100%;
+  }
+  .payNow:hover{
+    color: black;
+    background-color: white;
+    animation-delay: .4s;
+    transition: .4s;
+    font-size: larger;
+    font-weight: bolder;
+  }
+}
+
+
+@media screen and (max-width:615px) {
+  .social{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
